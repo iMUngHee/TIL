@@ -11,8 +11,6 @@
 <details>
 <summary><b>Ch 1. 러스트 소개</b></summary>
 
-</details>
-
 ![rust](https://www.rust-lang.org/static/images/rust-logo-blk.svg)
 
 - GC(garbage Collection)가 없다.
@@ -47,6 +45,8 @@ fn main() {
     greet_world();
 }
 ```
+
+</details>
 
 <details>
 <summary><b>Ch 2. 러스트 언어의 기초</b></summary>
