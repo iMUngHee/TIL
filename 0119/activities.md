@@ -10,8 +10,43 @@
 
 <details>
 <summary><b>Ch 1. 러스트 소개</b></summary>
- ㅇㅇ
+
 </details>
+
+![rust](https://www.rust-lang.org/static/images/rust-logo-blk.svg)
+
+- GC(garbage Collection)가 없다.
+- 보안이 중요한 상황에서 신뢰할 수 있다.
+
+```text
+# 러스트의 기본적인 프로젝트 구조
+
+chapter_1/hello
+├── Cargo.lock
+├── Cargo.toml
+├── src
+│   └── main.rs
+└── target
+```
+
+```rust
+// Hello, World!
+fn greet_world() {
+    println!("Hello, world!");
+    let southern_germany = "GrüB Gott!";
+    let korean = "안녕, 세상아!";
+    let regions = [southern_germany, korean];
+
+    for region in regions.iter() {
+        println!("{}", &region);
+    }
+
+}
+
+fn main() {
+    greet_world();
+}
+```
 
 <details>
 <summary><b>Ch 2. 러스트 언어의 기초</b></summary>
